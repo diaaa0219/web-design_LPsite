@@ -34,7 +34,7 @@ body {
 }
 
 .main_firstview {
-  height: 600px;
+  height: 500px;
   position: relative;
 }
 
@@ -169,12 +169,14 @@ body {
   grid-column: 2/3;
   grid-row: 1/2;
   background-color: pink;
+  display: flex;
 }
 
 .main_service_grid_box3 {
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: rgb(180, 151, 155);
+  display: flex;
 }
 
 .main_service_grid h3 {
